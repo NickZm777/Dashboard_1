@@ -1,10 +1,26 @@
 body {
     background-color: lightgrey;
+    height: 100%;
 }
-h1 {
+#ad {
     text-align: center; 
     background-color: gainsboro;
+    position: static;
 }
+#ts {
+    background-color: lightgrey;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+    position: relative;
+    bottom: 5px
+
+    }
 #portfolio {
     background-color: rgb(49, 197, 30); 
     font-size: 20px;
@@ -46,17 +62,7 @@ h1 {
     font-size: 35px;
     color: green;
 }
-#ts {
-    background-color: ivory;
-    padding-left: 50px;
-    padding-right: 50px;
-    width: 300px;
-    height: 300px;
-    font-size: 30px;
-    font-weight: bold;
-    color: darkblue;
-    text-align: center;
-    }
+
 #tl {
     color: white;
     background-color: rgb(40, 40, 202);
@@ -77,4 +83,12 @@ h1 {
     position: fixed;
     top: 50%;
     right: 30px;
+}
+#footer {
+    font-size: 20px;
+    text-align: center;
+    background-color: olivedrab;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
 }
