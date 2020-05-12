@@ -1,0 +1,80 @@
+body {
+    background-color: lightgrey;
+}
+h1 {
+    text-align: center; 
+    background-color: gainsboro;
+}
+#portfolio {
+    background-color: rgb(49, 197, 30); 
+    font-size: 20px;
+    width: 60%;
+}
+#deposit {
+    border: 1px solid grey; 
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    background-color: rgb(233, 233, 233);
+}
+#a{
+    font-size: 35px;
+    color: red;
+}
+#dividents {
+    border: 1px solid grey; 
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    background-color: rgb(233, 233, 233);
+}
+#b {
+    font-size: 35px;
+    color: blue;
+}
+#gains {
+    border: 1px solid grey;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    background-color: rgb(233, 233, 233);
+}
+#c {
+    font-size: 35px;
+    color: green;
+}
+#ts {
+    background-color: ivory;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+    }
+#tl {
+    color: white;
+    background-color: rgb(40, 40, 202);
+    width: 300px;
+    position: relative;
+    }
+#li {
+    color: blue;
+    font-size: 20px;
+    position: relative;
+    left: 150px;
+    background-color: yellow;
+}
+#fix {
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    position: fixed;
+    top: 50%;
+    right: 30px;
+}
